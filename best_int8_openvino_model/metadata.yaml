@@ -1,0 +1,37 @@
+description: Ultralytics best model trained on merged_dataset/data.yaml
+author: Ultralytics
+date: '2025-07-31T14:55:31.475802'
+version: 8.3.171
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: Stairs
+  1: Door
+  2: Bench
+  3: Person
+  4: Car
+  5: Bus
+  6: Bicycle
+  7: Chair
+  8: Table
+  9: Sofa bed
+  10: Toilet
+  11: Sink
+  12: Bed
+  13: Plant
+  14: Wall
+  15: Pole
+args:
+  batch: 1
+  fraction: 1.0
+  half: false
+  int8: true
+  dynamic: false
+  nms: true
+channels: 3
